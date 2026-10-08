@@ -51,3 +51,10 @@ Você pode utilizar qualquer efeito deste repositório de duas maneiras:
 
 Quer sugerir um novo efeito ou achou algum bug?
 Fique à vontade para abrir uma [Issue](../../issues) ou enviar um [Pull Request](../../pulls)!
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE). Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
