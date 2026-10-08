@@ -10,7 +10,7 @@ Cada efeito inclui um **modelo JSON pronto para importação** e um **guia passo
 
 | Efeito | Descrição | Modelo Pronto | Código Manual | Tutorial |
 | :--- | :--- | :---: | :---: | :---: |
-| [**Sticky Horizontal Scroll**](./effects/StickyHorizontalScroll/README.md) | Transforma a rolagem vertical da página em rolagem horizontal suave mantendo a seção fixada na tela. | [`.json`](./effects/StickyHorizontalScroll/StickyHorizontalScroll.json) | [`code.html`](./effects/StickyHorizontalScroll/code.html) | [Guia](./effects/StickyHorizontalScroll/README.md) |
+| [**Sticky Horizontal Scroll**](./effects/StickyHorizontalScroll/README.md) | Transforma a rolagem vertical da página em rolagem horizontal suave mantendo a seção fixada na tela. | [`.json`](./effects/StickyHorizontalScroll/StickyHorizontalScroll.json) | [`code.html`](./effects/StickyHorizontalScroll/code.html) | [Guia](./effects/StickyHorizontalScroll/README.md) • [YouTube](https://www.youtube.com/watch?v=yKLYOYL0pKA) |
 
 *(Novos efeitos serão adicionados continuamente!)*
 

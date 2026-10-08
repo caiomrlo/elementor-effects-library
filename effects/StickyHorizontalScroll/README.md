@@ -8,9 +8,7 @@ Efeito moderno onde a rolagem vertical tradicional da página é convertida suav
 
 Assista ao passo a passo completo no YouTube:
 
-[![Assistir no YouTube](https://img.shields.io/badge/YouTube-Assistir_Tutorial-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=SEU_LINK_AQUI)
-
-> 💡 *Substitua o link acima pelo link do vídeo gravado no seu canal.*
+[![Assistir no YouTube](https://img.shields.io/badge/YouTube-Assistir_Tutorial-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=yKLYOYL0pKA)
 
 ---
 
