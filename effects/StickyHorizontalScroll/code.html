@@ -1,0 +1,47 @@
+<style>
+.horizontalScroll_scrollElement > * {
+  flex-shrink: 0 !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const containers = document.querySelectorAll('.horizontalScroll_wrapper');
+
+  containers.forEach((container) => {
+    const sticky = container.querySelector('.horizontalScroll_sticky');
+    const scrollElement = container.querySelector('.horizontalScroll_scrollElement');
+
+    if (!sticky || !scrollElement) return;
+
+    let currentScroll = 0;
+    let targetScroll = 0;
+    const ease = 0.08; // Ajuste a suavidade (valores menores = mais suave/lento)
+
+    function updateScroll() {
+      const containerRect = container.getBoundingClientRect();
+      const containerHeight = container.offsetHeight;
+      const stickyHeight = sticky.offsetHeight;
+
+      const totalVerticalDistance = containerHeight - stickyHeight;
+
+      if (totalVerticalDistance <= 0) return;
+
+      const scrollProgress = -containerRect.top / totalVerticalDistance;
+      const clampedProgress = Math.min(Math.max(scrollProgress, 0), 1);
+
+      const maxHorizontalScroll = scrollElement.scrollWidth - scrollElement.clientWidth;
+
+      targetScroll = clampedProgress * maxHorizontalScroll;
+
+      currentScroll += (targetScroll - currentScroll) * ease;
+
+      scrollElement.scrollLeft = currentScroll;
+
+      requestAnimationFrame(updateScroll);
+    }
+
+    requestAnimationFrame(updateScroll);
+  });
+});
+</script>
